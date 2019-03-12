@@ -82,6 +82,7 @@
     }
     .info p{
         font-size: 14px !important;
+        white-space: nowrap !important;
     }
     .bbb:nth-child(3) {
         margin-top: 50px;
