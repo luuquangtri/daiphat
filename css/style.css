@@ -181,7 +181,6 @@ body::-webkit-scrollbar-thumb {
     line-height: 25px;
     font-family: 'UTM Neo Sans Intel';
     margin-left: 21px;
-    display: inline-block;
 }
 
 .info a {
@@ -1006,4 +1005,8 @@ body::-webkit-scrollbar-thumb {
     -moz-animation: glowing 1500ms infinite;
     -o-animation: glowing 1500ms infinite;
     animation: glowing 1500ms infinite;
+}
+
+.mobile-menu .expand {
+    color: red !important;
 }
