@@ -181,6 +181,7 @@ body::-webkit-scrollbar-thumb {
     line-height: 25px;
     font-family: 'UTM Neo Sans Intel';
     margin-left: 21px;
+    display: inline-block;
 }
 
 .info a {
