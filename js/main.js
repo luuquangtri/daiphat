@@ -48,9 +48,9 @@ $(document).ready(function () {
         arrows: false,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: false
@@ -66,7 +66,7 @@ $(document).ready(function () {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             }

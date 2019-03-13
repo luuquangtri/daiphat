@@ -1011,3 +1011,40 @@ body::-webkit-scrollbar-thumb {
 .mobile-menu .expand {
     color: red !important;
 }
+.hide-mobile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 240px;
+    overflow: auto;
+    overflow-y: hidden;
+    margin-top: 25px;
+    display: none;
+}
+.list{
+    white-space: nowrap;
+    margin: 0px 0px 12px;
+}
+a.item-list{
+    width: 112px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 8px;
+}
+.picture {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+.picture span{
+    white-space: normal;
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(120, 120, 120);
+    margin: 8px 0px 0px;
+}

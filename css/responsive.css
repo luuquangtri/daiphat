@@ -25,6 +25,9 @@
     .product {
         display: none;
     }
+    .hide-mobile{
+        display: block !important;
+    }
     .product span{
         font-size: 16px !important
     }
@@ -103,6 +106,14 @@
     }
     .social-btns{
         position: static !important;
+    }
+    .hide-mobile{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 240px;
+        overflow: auto;
+        overflow-y: hidden;
     }
 }
 
@@ -209,4 +220,5 @@
         justify-content: center;
         align-items: center;
     }
+    
 }
