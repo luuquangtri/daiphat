@@ -256,7 +256,7 @@ html {
   height: 45px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .mm-toggle {
     display: block;
   }
